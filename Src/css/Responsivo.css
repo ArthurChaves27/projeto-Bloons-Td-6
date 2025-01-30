@@ -1,0 +1,55 @@
+@media(max-width: 768px) {
+    body {
+        background-position: center;
+        padding: 0 15px;
+    }
+    .slider {
+        gap: 10px;
+    }
+
+}
+
+@media(max-width: 496px) {
+    .lista-personagens {
+        width: 250px;
+    }
+    
+    .imagem-carta {
+        width: 100%;
+    }   
+    .slider {
+        position: relative;
+    }
+
+    .btn-seta {
+        position: absolute;
+        bottom: -10%;
+    }
+
+    #bnt-voltar {
+        left: 30%;
+    }
+
+    #bnt-avancar {
+        right: 30%;
+    }
+}
+
+@media (max-height: 765px) {
+    .body {
+        justify-content: start;
+    }
+    
+    .lista-personagens {
+height: 530px;
+    }
+    
+    .btn-seta {
+        bottom: -5%;
+    }
+
+    .cabecalho {
+        display: none;
+
+ }
+}
