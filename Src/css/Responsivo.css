@@ -34,22 +34,3 @@
         right: 30%;
     }
 }
-
-@media (max-height: 765px) {
-    .body {
-        justify-content: start;
-    }
-    
-    .lista-personagens {
-height: 530px;
-    }
-    
-    .btn-seta {
-        bottom: -5%;
-    }
-
-    .cabecalho {
-        display: none;
-
- }
-}
