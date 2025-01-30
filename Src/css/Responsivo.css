@@ -9,7 +9,7 @@
 
 }
 
-@media(max-width: 496px) {
+@media(max-width: 450px) {
     .lista-personagens {
         width: 250px;
     }
@@ -26,11 +26,12 @@
         bottom: -10%;
     }
 
-    #bnt-voltar {
+    #btn-voltar {
         left: 30%;
     }
 
-    #bnt-avancar {
+    #btn-avancar {
         right: 30%;
     }
 }
+

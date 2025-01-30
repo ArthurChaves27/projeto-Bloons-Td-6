@@ -11,10 +11,6 @@ body {
 
 }
 
-header {
-    font-family: 'Anthrope', serif;
-}
-
 h2 {
     font-family: 'Anthrope', serif;
 }
@@ -22,6 +18,8 @@ h2 {
 .cabecalho {
     display: flex;
     justify-content: center;
+    
+    
 }
 
 .cartao {
